@@ -1,0 +1,1215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.slider{
+    margin-top: 1.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+.slider1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 3%;
+}
+.carousel-caption{
+    top: 20%;
+}
+.carousel-caption #head{
+    font-size: 80px;
+    letter-spacing: 30px;
+}
+.carousel-caption #head1{
+    font-size: 40px;
+    letter-spacing: 18px;
+}
+.carousel-caption .lorem{
+    margin-top: 150px;
+}
+@media (max-width:1024px){ 
+    .carousel-caption{
+        top: 10%;
+    }
+    .carousel-caption #head{
+        font-size: 75px;
+        letter-spacing: 30px;
+    }
+    .carousel-caption #head1{
+        font-size: 35px;
+        letter-spacing: 18px;
+    }
+    .carousel-caption .lorem{
+        margin-top: 100px;
+        font-size: 15px;
+    }
+    .img1{
+        margin-bottom: 1.5%;
+        margin-left: 1%;
+    }
+    .img2{
+        margin-bottom: 1.5%;
+        margin-left: 2%;
+    }
+    .img3{
+        margin-top: 1.5%;
+        margin-right: 1%;
+    }
+    .img4{
+        margin-top: 1.5%;
+        margin-left: 1%;
+    }
+    .img5{
+        margin-top: 1.5%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .img6{
+        margin-top: 1.5%;
+        margin-left: 1%;
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6{
+        border-radius: 5px;
+    }
+}
+@media (max-width:768px){
+    .carousel-caption #head{
+        font-size: 60px;
+        letter-spacing: 25px;
+    }
+    .carousel-caption .lorem{
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .navbar{
+        width: 200px !important;
+    }
+.demo-txt{
+        font-style: 12px !important;
+    }
+}
+@media (max-width:575px){
+    .carousel-caption #head{
+        font-size: 40px;
+        letter-spacing: 20px;
+    }
+    .carousel-caption .lorem{
+        margin-top: 12px;
+        font-size: 8px;
+    }
+}
+@media (max-width:425px){
+    .carousel-caption #head{
+        font-size: 30px;
+        letter-spacing: 20px;
+    }
+    .carousel-caption #head1{
+        font-size: 15px;
+        letter-spacing: 18px;
+    }
+    .carousel-caption .lorem{
+        margin-top: 8px;
+        font-size: 7px;
+    }
+    .demo-txt{
+            font-style: 10px;
+    }
+    .images{
+        margin-left: 90px !important; 
+    }
+}
+@media (max-width:375px){
+    .carousel-caption #head{
+        font-size: 30px;
+        letter-spacing: 20px;
+    }
+    .carousel-caption #head1{
+        font-size: 15px;
+        letter-spacing: 18px;
+    }
+    .carousel-caption .lorem{
+        margin-top: 3px;
+        font-size: 6px;
+    }
+    .images{
+        margin-left: 80px !important; 
+        margin-right: 10px !important;
+    }
+}
+@media (max-width:320px){
+    .carousel-caption #head{
+        font-size: 15px;
+        letter-spacing: 15px;
+    }
+    .carousel-caption #head1{
+        font-size: 7px;
+        letter-spacing: 10px;
+    }
+    .carousel-caption .lorem{
+        margin-top: 2px;
+        font-size: 4px;
+    }
+.demo-txt{
+        font-style: 5px;
+    }
+    .images{
+        margin-left: 70px !important; 
+        margin-right: 10px;
+    }
+}
+.navbar{
+    width: 300px;
+    margin-right: 0;
+    background: #000 !important;
+}
+.nav-link{
+    font-size: 1.30em;
+    transition: 0.3s;
+    color: white  !important;
+    width: 300px;
+    letter-spacing: 5px;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover{
+    background: #292929;
+}
+.btn{
+    color: white;
+    background-color: #181818;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.btn:hover{
+    color: #aaaaaa;
+}
+.lead{
+    color: white;
+}
+.fa-star-o{
+    color: #6b6b66;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.fa-search{
+    margin-left: 0;
+    color: #383838 !important;
+    font-size: 20px;
+}
+#search{
+    border-radius: 2px;
+    background: #2b2b2b;
+    color: #e4e4e4;
+    width: 250px;
+}
+.my-container{
+    transition: 0.5s;
+}
+.active-nav{
+    margin-left: 0;
+}
+.active-cont{
+    margin-left: 25 0px;
+}
+.img1{
+    margin-bottom: 1.5%;
+    margin-right: 1%;
+}
+.img2{
+    margin-bottom: 1.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.img3{
+    margin-bottom: 1.5%;
+    margin-left: 1%;
+}
+.img4{
+    margin-top: 1.5%;
+    margin-right: 1%;
+}
+.img5{
+    margin-top: 1.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.img6{
+    margin-top: 1.5%;
+    margin-left: 1%;
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6{
+    border-radius: 5px;
+}
+.images{
+    margin-left: 110px;
+}
+.demo-text #txt{
+    font-style: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.carousel img{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.carousel-caption{
+    top: 10%;
+}
+.carousel-caption #head{
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+.carousel-caption h1{
+    letter-spacing: 20px;
+    font-weight: 400;
+}
+.sidebar ul{
+    margin-bottom: 150px;
+}
+.sidebar li{
+    list-style: none;
+    color: #e4e4e4;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sidebar .fa{
+    color: #6b6b6b;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+.col-lg-9 #my{
+    color: #e4e4e4;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+.col-lg-9 #my:hover{
+    background: #6e6363;
+}
+#search{
+    margin-top: 20px;
+    border-radius: 1px;
+    background-color: #6b6b6b;
+    padding: 1px 30px;
+    border: transparent;
+    outline-color: #6b6b6b;
+}
+.sub{
+    display: flex;
+    border-bottom: 2px solid #e4e4e4;
+    margin-bottom: 10px;
+}
+#sub{
+    font-size: 10px;
+    color: #e4e4e4;
+}
+#social{
+    color: #e4e4e4;
+    background: #6b6b6b;
+    font-size: 10px;
+    margin-left: 5px;
+    padding: 2px;
+}
+.btn{
+    border:  2px solid #e4e4e4;
+    font-size: 9px;
+    color: #e4e4e4;
+    padding: 2px 118px;
+    margin-bottom: 350px;
+}
+.btn:hover{
+    background: #e4e4e4;
+}
+@media (max-width:1024px) {
+    .carousel-caption{
+        top: 5%;
+    }
+    .carousel-caption #head{
+        font-size: 20px;
+        letter-spacing: 10px;
+        font-weight: 100;
+    }
+    .carousel-caption h1{
+        font-size: 50px;
+        letter-spacing: 20px;
+        font-weight: 400;
+    }
+    .carousel-caption #ctext{
+        font-size: 15px;
+    }
+    .demo-text .lead{
+        font-size: 15px;
+    }
+}
+@media (max-width:768px) {
+    .carousel-caption{
+        top: 1%;
+    }
+    .carousel-caption #head{
+        font-size: 15px;
+        letter-spacing: 10px;
+        font-weight: 100;
+    }
+    .carousel-caption h1{
+        font-size: 30px;
+        letter-spacing: 20px;
+        font-weight: 400;
+    }
+    .carousel-caption #ctext{
+        font-size: 15px;
+    }
+    .demo-text .lead{
+        font-size: 10px;
+    }
+}
+@media (max-width:590px) {
+    .carousel-caption{
+        top: 1%;
+    }
+    .carousel-caption #head{
+        font-size: 15px;
+        letter-spacing: 10px;
+        font-weight: 100;
+    }
+    .carousel-caption h1{
+        font-size: 30px;
+        letter-spacing: 20px;
+        font-weight: 400;
+    }
+    .carousel-caption #ctext{
+        font-size: 7px;
+    }
+    .demo-text .lead{
+        font-size: 10px;
+    }
+}
+@media (max-width:425px) {
+    .carousel-caption{
+        top: 1%;
+    }
+    .carousel-caption #head{
+        font-size: 10px;
+        letter-spacing: 10px;
+        font-weight: 100;
+    }
+    .carousel-caption h1{
+        font-size: 20px;
+        letter-spacing: 20px;
+        font-weight: 400;
+    }
+    .carousel-caption #ctext{
+        font-size: 5px;
+    }
+    .demo-text .lead{
+        font-size: 7px;
+    }
+    
+}
+@media (max-width:325px) {
+    .carousel-caption{
+        top: 1%;
+    }
+    .carousel-caption #head{
+        font-size: 8px;
+        letter-spacing: 10px;
+        font-weight: 100;
+    }
+    .carousel-caption h1{
+        font-size: 16px;
+        letter-spacing: 20px;
+        font-weight: 400;
+    }
+    .carousel-caption #ctext{
+        font-size: 3px;
+    }
+    .demo-text .lead{
+        font-size: 4px;
+    }
+}
+.sidebar-bottom{
+    display: flex;
+}
+.display-3{
+    color: #e4e4e4;
+    font-size: 80px;
+    font-weight: 100;
+    border: 3px solid rgb(56, 82, 82);
+    width: 90px;
+    height: 110px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.icons{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column !important;
+}
+.icons p{
+    margin-left: 10px;
+    font-weight: 100;
+}
+#social1{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #e4e4e4;
+}
+.container-fluid{
+    display: flex;
+}
+.col-lg-9 img{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px
+}
+.demo-text .lead{
+    font-size: 15px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+colors used in the website::
+
+
+1. rgb(196, 196, 196)
+2. rgb(56, 82, 82)
+3. #6b6b6b
+4. #e4e4e4
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/b7ddd6d81f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Blogger Design</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+          <div class="sidebar-content">
+            <i class="fa fa-star-o" id="icon"></i>
+            <input type="search" id="search">
+                <div class="sidebar-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="menu">
+                    <li>HOME</li>
+                    <li>GALLERY</li>
+                    <li>PAGES</li>
+                    <li>BLOGS</li>
+                    <li>ABOUT</li>
+                    <li>CONTACT</li>
+                </ul>
+                <div class="join">
+                    <p>JOIN OUR NEWSLETTER</p>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-globe"></i>
+                </div>
+                <a class="btn">Subscribe Now</a>
+                <div class="social">
+                    <h1 class="B">B</h1>
+                    <div class="icon">
+                        <i class="fa fa-star" id="social"><p>FACEBOOK</p></i>
+                        <i class="fa fa-star" id="social"><p>TWITTER </p></i>
+                        <i class="fa fa-star" id="social"><p>PINTEREST</p></i>
+                    </div>
+                </div>
+          </div>
+        </div>
+        <div class="images">
+            <div class="heading">
+                <h2>BLOGGER</h2><br>
+                <h4>DESIGN</h4>
+            </div>
+            <div class="content">
+                <img src="bg6.jpg" class="img1">
+                <img src="bg3.jpg" class="img2">
+                <img src="bg5.jpg" class="img3">
+            </div>
+            <div class="content1">
+                <img src="bg4.jpg" class="img1">
+                <img src="bg2.jpg" class="img2">
+                <img src="bg1.jpg" class="img3">
+            </div>
+            <div class="content-text">
+                <div class="demo-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ad dolores sed illo facere. Alias nobis quaerat magnam repellat recusandae et, adipisci, harum saepe, ad rem sunt natus mollitia doloribus.</p><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ad dolores sed illo facere. Alias nobis quaerat magnam repellat recusandae et, adipisci, harum saepe, ad rem sunt natus mollitia doloribus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ad dolores sed illo facere. Alias nobis quaerat magnam repellat recusandae et, adipisci, harum saepe, ad rem sunt natus mollitia doloribus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ad dolores sed illo facere. Alias nobis quaerat magnam repellat recusandae et, adipisci, harum saepe, ad rem sunt natus mollitia doloribus.</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
+ */
